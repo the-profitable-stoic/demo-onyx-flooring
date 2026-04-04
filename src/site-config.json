@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Onyx Flooring",
+    "phone": "555-flo-r93",
+    "category": "flooring",
+    "city": "Columbus",
+    "state": "OH"
+  },
+  "design": {
+    "preset": {
+      "id": "flooring-dark-premium",
+      "categoryGroup": "flooring",
+      "name": "Dark Premium",
+      "recipeFile": "flooring/dark-premium.astro",
+      "colors": {
+        "primary": "#FBBF24",
+        "primaryDark": "#c9991d",
+        "primaryLight": "#fde5a7",
+        "secondary": "#2A2A2A",
+        "accent": "#fcc945",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "flooring/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Premium Flooring Solutions in Columbus",
+      "heroSubline": "Transform your home with floors designed for Ohio's climate. Expert installations tailored to your neighborhood's architectural style.",
+      "aboutTitle": "Crafting Floors That Last Generations",
+      "aboutText": [
+        "Founded in 2012, Onyx Flooring has become Columbus' trusted name for flooring that stands up to our freeze-thaw winters and humid summers. We started with a single truck and a passion for craftsmanship in German Village homes.",
+        "Our team specializes in addressing Central Ohio's unique challenges - from preventing moisture damage in Dublin basements to preserving the character of Short North historic properties.",
+        "Every project supports local jobs, with 85% of our materials sourced from Midwest suppliers. We're proud sponsors of the Columbus Arts Festival and the Westerville Fourth of July Parade."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Materials",
+          "description": "We use flooring specifically engineered for Ohio's temperature swings to prevent warping and gaps."
+        },
+        {
+          "title": "Neighborhood Expertise",
+          "description": "From Clintonville bungalows to Grove City split-levels, we know your home's architectural needs."
+        },
+        {
+          "title": "No-Stress Installations",
+          "description": "Our team handles everything from furniture moving to final cleaning - you just enjoy the results."
+        },
+        {
+          "title": "10-Year Craftsmanship Warranty",
+          "description": "Our longest-standing client is a 1927 Tudor in Upper Arlington with original floors we installed in 2013."
+        }
+      ],
+      "ctaHeadline": "Ready for floors as unique as your Columbus home?",
+      "ctaSubline": "Schedule your free in-home estimate today. Serving all Franklin County neighborhoods since 2012."
+    },
+    "services": [
+      {
+        "slug": "hardwood-flooring",
+        "name": "Hardwood Flooring",
+        "shortDescription": "Timeless wood floors engineered for Ohio's humidity swings.",
+        "description": "Our hardwood installations begin with a moisture barrier system crucial for Columbus homes. We use Midwest-sourced oak and maple with expansion gaps sized for our climate's 100°F annual temperature range.\n\nThe Onyx team specializes in matching historic grain patterns for German Village renovations, while offering modern durability for active families in Dublin's Muirfield area. Every floor receives our proprietary 6-coat finish that resists scratches from winter boots and pet claws.\n\nFor homes with radiant heat (common in Worthington ranches), we install dimensionally stable engineered hardwoods that won't warp. All materials meet VOC standards safe for indoor air quality during our long winters.",
+        "process": [
+          "Step 1: 48-hour moisture testing of your subfloor",
+          "Step 2: Custom milling to match existing trim or historic patterns",
+          "Step 3: Climate-controlled acclimation in your home",
+          "Step 4: Dustless installation with air scrubbers"
+        ],
+        "benefits": [
+          "Adds 15-20% resale value to Columbus homes",
+          "Our finishes last 3x longer than DIY kits",
+          "Specialized transitions for uneven Ohio foundations",
+          "Matches original 1920s flooring common in Clintonville"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my home's original 1940s hardwood?",
+            "answer": "We maintain a library of 37 historic Columbus wood samples and custom mill to match. Last year we perfectly replicated the tiger oak in a Short North loft conversion."
+          },
+          {
+            "question": "How do you prevent gaps in winter?",
+            "answer": "Our installers calculate optimal expansion space based on your home's humidity levels. We use moisture-resistant adhesives rarely needed by big-box retailers."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-vinyl-plank",
+        "name": "Luxury Vinyl Plank",
+        "shortDescription": "Waterproof flooring perfect for basements and busy households.",
+        "description": "LVP has become the top choice for Westerville parents and Grove City retirees needing worry-free floors. Our planks feature a 40-mil wear layer - twice the thickness of big-box options - to withstand hockey gear and grandkids' toys.\n\nWe install with specialized underlayment that absorbs sound in open-concept homes while preventing cold transfer from concrete slabs. The patented locking systems we use won't separate during humidity spikes like cheaper alternatives often do.\n\nFor homes near the Scioto River floodplain, we offer completely waterproof cores that survived 2022's record rainfall. Textures include hand-scraped looks that complement Dublin's traditional interiors without real wood's maintenance.",
+        "process": [
+          "Step 1: Digital measurement with laser accuracy",
+          "Step 2: Subfloor leveling (critical for Ohio's shifting clay soils)",
+          "Step 3: Sound-dampening underlayment installation",
+          "Step 4: Seamless transition molding at all doorways"
+        ],
+        "benefits": [
+          "100% waterproof - ideal for basement rec rooms",
+          "Warmer underfoot than tile during winters",
+          "Scratch-resistant surface handles pet traffic",
+          "No acclimation time needed versus hardwood"
+        ],
+        "faq": [
+          {
+            "question": "How does LVP handle our temperature extremes?",
+            "answer": "We use commercial-grade planks rated for -20°F to 120°F - crucial for sunrooms and seasonal cabins around Alum Creek."
+          },
+          {
+            "question": "Can you install over radiant heat?",
+            "answer": "Yes, with specific low-conductivity underlayments that won't trap heat. We've done 27 systems in Upper Arlington this year alone."
+          }
+        ]
+      },
+      {
+        "slug": "tile-flooring",
+        "name": "Tile Flooring",
+        "shortDescription": "Durable ceramic and stone for high-traffic areas.",
+        "description": "From Westerville mudrooms to German Village kitchen renovations, our tile withstands Ohio's freeze-thaw cycles without cracking. We use only through-body porcelain tiles that won't show chips at the edges.\n\nThe Onyx team specializes in complex patterns for Columbus' historic homes, including exact matches to original 1920s hex tile found in Clintonville baths. For modern spaces, we offer large-format tiles that minimize grout lines in Short North condos.\n\nAll installations include our thermal break system that prevents cold transfer to bare feet in winter. We custom-mix sanded grout with polymers that resist cracking from foundation movement common in older Hilliard properties.",
+        "process": [
+          "Step 1: Structural assessment for load-bearing needs",
+          "Step 2: Custom layout planning to minimize cuts",
+          "Step 3: Crack-isolation membrane installation",
+          "Step 4: Laser-leveled setting for perfect planes"
+        ],
+        "benefits": [
+          "Withstands salt and meltwater from winter boots",
+          "Cool surface for Columbus' humid summers",
+          "Easily cleaned after outdoor gatherings",
+          "Adds thermal mass to sunrooms"
+        ],
+        "faq": [
+          {
+            "question": "What's best for my sunroom's concrete slab?",
+            "answer": "We recommend our frost-proof porcelain tiles with non-slip textures. Installed last month on a Bexley patio, they survived -15°F without damage."
+          },
+          {
+            "question": "Can you match my historic home's original tile?",
+            "answer": "Yes - we've recreated 8 different 1930s patterns using archival photos. Recently matched the exact green subway tile in a Victorian Village kitchen."
+          }
+        ]
+      },
+      {
+        "slug": "carpet-installation",
+        "name": "Carpet Installation",
+        "shortDescription": "Plush, stain-resistant carpets for cozy Ohio winters.",
+        "description": "Nothing beats carpet for warmth during Columbus' chilly months. We offer premium nylon carpets with built-in antimicrobial treatment - essential for preventing mold during humid summers.\n\nOur team specializes in stair runners for Worthington's historic Colonials and wall-to-wall installations that reduce noise in Dublin's open floor plans. Padding choices include moisture barriers for basements and ultra-plush options for nursery floors.\n\nEvery installation includes our signature seam-sealing process that prevents the separation common after temperature swings. We source pet-friendly carpets that resist stains from muddy paws yet feel soft underfoot for play areas.",
+        "process": [
+          "Step 1: Air quality assessment for fiber selection",
+          "Step 2: Subfloor moisture testing and preparation",
+          "Step 3: Power-stretching to prevent wrinkles",
+          "Step 4: HEPA vacuuming of entire work area"
+        ],
+        "benefits": [
+          "Retains heat 3x better than hard surfaces",
+          "Sound absorption for multi-level homes",
+          "Stain warranties cover red wine and coffee",
+          "Softer landing for kids and seniors"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent odors in humid weather?",
+            "answer": "We install only carpets with built-in antimicrobial treatments and use padding that resists moisture absorption - crucial for homes near the Olentangy River."
+          },
+          {
+            "question": "What's best for my finished basement?",
+            "answer": "Our solution-dyed nylon carpets with attached moisture barriers are perfect. Installed in 42 Hilliard basements last year with zero moisture issues."
+          }
+        ]
+      },
+      {
+        "slug": "floor-refinishing",
+        "name": "Floor Refinishing",
+        "shortDescription": "Restore original hardwood to its former glory.",
+        "description": "Many Columbus homes hide beautiful wood under decades of paint and wear. Our dustless refinishing process brings back the character of original floors without the mess of traditional sanding.\n\nWe've revived 1920s heart pine in German Village, 1950s maple in Clintonville, and even gymnasium floors in converted schoolhouses. Our 8-step finishing system includes grain-filling for antique wood and aluminum oxide topcoats that withstand stiletto heels at Short North galas.\n\nThe process includes careful stain matching to complement your home's trim and historic details. We can replicate milk paint finishes common in pre-war homes or create modern matte looks for contemporary spaces.",
+        "process": [
+          "Step 1: Nail detection and countersinking",
+          "Step 2: Edge-sanding with orbital machines",
+          "Step 3: Grain-filling for flawless surfaces",
+          "Step 4: UV-cured finish application"
+        ],
+        "benefits": [
+          "Preserves historic home character",
+          "Eliminates squeaks and loose boards",
+          "Non-toxic finishes safe during application",
+          "Adds value without full replacement cost"
+        ],
+        "faq": [
+          {
+            "question": "Can you fix my severely damaged floors?",
+            "answer": "We've salvaged floors others said were unsaveable, including replacing individual boards in a 1910 Arts & Crafts home near Goodale Park. Bring us photos for a free assessment."
+          },
+          {
+            "question": "How long until we can walk on the floors?",
+            "answer": "Our fast-curing finishes allow light use in 8 hours, full use in 24 - crucial for families needing to stay in their homes during the project."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith K.",
+        "rating": 5,
+        "service": "Hardwood Flooring",
+        "text": "The team perfectly matched our 1928 Colonial's original oak floors when we renovated the sunroom. They even replicated the hand-carved edging detail. Three winters later, not a single gap has appeared despite our wild temperature swings.",
+        "date": "2025-01-15"
+      },
+      {
+        "name": "David R.",
+        "rating": 5,
+        "service": "Luxury Vinyl Plank",
+        "text": "After our basement flooded twice last spring, we needed waterproof flooring that didn't look cheap. Onyx installed LVP that looks like reclaimed barn wood and has survived both kids and a very messy golden retriever. The textured surface prevents slips when coming in with wet boots.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "Sophia L.",
+        "rating": 5,
+        "service": "Tile Flooring",
+        "text": "They restored our 1940s bathroom's original hex tile and matched the exact pale pink color for replacements. The new grout has stayed pristine despite our steamy showers. Their installer noticed our uneven subfloor and added extra leveling at no additional charge.",
+        "date": "2024-09-22"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Carpet Installation",
+        "text": "Our upstairs carpets had constant musty smells until Onyx installed their antimicrobial system. Two years later, even after potty-training accidents and spilled juice boxes, the carpets look and smell new. The padding makes such a difference in warmth during winter.",
+        "date": "2024-08-17"
+      },
+      {
+        "name": "Natalie W.",
+        "rating": 5,
+        "service": "Floor Refinishing",
+        "text": "I thought our 1950s maple floors were beyond hope after decades of wear. The team brought out this incredible golden grain we never knew existed. They worked around our furniture since we couldn't vacate, and left the house cleaner than they found it.",
+        "date": "2024-07-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Hardwood Flooring",
+        "text": "When we converted our attic to living space, Onyx matched our existing floors so perfectly you can't tell where the original ends. Their expansion gap calculations were spot-on - we've had zero issues despite the attic's temperature fluctuations.",
+        "date": "2024-06-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Columbus Flooring Experts | Onyx Flooring OH",
+        "description": "Premium flooring installations and refinishing for Central Ohio homes. Climate-adapted materials for enduring beauty in Columbus' variable weather."
+      },
+      "about": {
+        "title": "About Our Columbus Flooring Company",
+        "description": "Meet the local team crafting floors that withstand Ohio's seasons while enhancing your home's architectural character since 2012."
+      },
+      "services": {
+        "title": "Columbus Flooring Services | Hardwood to LVP",
+        "description": "Comprehensive flooring solutions for every Columbus home - from historic property restorations to modern waterproof installations."
+      },
+      "contact": {
+        "title": "Contact Onyx Flooring in Columbus OH",
+        "description": "Schedule your free in-home flooring consultation. Serving Dublin, Westerville, Hilliard, and all Franklin County neighborhoods."
+      },
+      "reviews": {
+        "title": "Columbus Flooring Reviews | Onyx Flooring OH",
+        "description": "See why Central Ohio homeowners trust Onyx Flooring for beautiful, durable floors that stand the test of time and climate."
+      },
+      "service-areas": {
+        "title": "Columbus Flooring Service Areas | Onyx Flooring",
+        "description": "Expert flooring services throughout Franklin County - including Dublin, Westerville, Hilliard, and Grove City homes."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Dublin",
+        "slug": "dublin-oh",
+        "state": "OH",
+        "content": "Onyx Flooring proudly serves homeowners in Dublin, OH, where upscale subdivisions built from the 1980s to 2000s demand high-quality flooring solutions. Our expertise in handling freeze-thaw damage from cold, snowy winters ensures your floors remain durable and beautiful year-round. Whether you're updating hardwood, installing luxury vinyl plank, or refinishing existing surfaces, we tailor our services to Dublin's discerning homeowners.",
+        "localContext": "Dublin features upscale neighborhoods with a mix of modern and traditional architectural styles.",
+        "nearbyAreas": [
+          "Hilliard",
+          "Worthington",
+          "Powell"
+        ]
+      },
+      {
+        "city": "Westerville",
+        "slug": "westerville-oh",
+        "state": "OH",
+        "content": "In Westerville, OH, Onyx Flooring specializes in revitalizing floors in the city's well-established 1970s-80s suburban homes. Cold winters with freeze-thaw cycles can wreak havoc on flooring, but our durable materials and expert installation prevent premature wear. From timeless hardwood to waterproof laminate, we help Westerville residents maintain stylish and resilient floors.",
+        "localContext": "Westerville is known for its charming, tree-lined neighborhoods and historic downtown.",
+        "nearbyAreas": [
+          "Gahanna",
+          "New Albany",
+          "Lewis Center"
+        ]
+      },
+      {
+        "city": "Hilliard",
+        "slug": "hilliard-oh",
+        "state": "OH",
+        "content": "Hilliard, OH's family-friendly subdivisions from the 1980s-90s benefit from Onyx Flooring's tailored solutions. We address the challenges of snowy winters and freeze-thaw damage with flooring options designed for longevity. Whether you need kid-proof laminate, cozy carpet, or scratch-resistant hardwood, our team ensures flawless installation for Hilliard households.",
+        "localContext": "Hilliard offers a suburban feel with highly rated schools and community-focused amenities.",
+        "nearbyAreas": [
+          "Dublin",
+          "Columbus",
+          "Galloway"
+        ]
+      },
+      {
+        "city": "Grove City",
+        "slug": "grove-city-oh",
+        "state": "OH",
+        "content": "Grove City, OH's affordable 1970s-80s homes deserve durable, budget-friendly flooring, and Onyx Flooring delivers just that. Our freeze-thaw-resistant materials withstand harsh winters, preventing cracks and warping. From vinyl plank to classic tile, we help Grove City homeowners enhance their spaces without compromising on quality.",
+        "localContext": "Grove City combines affordability with a strong sense of community and local parks.",
+        "nearbyAreas": [
+          "Columbus",
+          "London",
+          "South Bloomfield"
+        ]
+      },
+      {
+        "city": "Worthington",
+        "slug": "worthington-oh",
+        "state": "OH",
+        "content": "Worthington, OH's historic and newer homes alike benefit from Onyx Flooring's precision craftsmanship. Cold winters demand flooring that can handle temperature swings, and our solutions—from engineered hardwood to insulated tile—provide both beauty and resilience. Trust us to preserve Worthington's charm with floors that stand the test of time.",
+        "localContext": "Worthington blends historic architecture with modern suburban living.",
+        "nearbyAreas": [
+          "Columbus",
+          "Dublin",
+          "Powell"
+        ]
+      },
+      {
+        "city": "Gahanna",
+        "slug": "gahanna-oh",
+        "state": "OH",
+        "content": "In Gahanna, OH, Onyx Flooring helps homeowners navigate snowy winters with flooring that resists freeze-thaw damage. Whether updating a 1970s ranch or a modern build, we offer stylish, low-maintenance options like waterproof laminate and luxury vinyl. Gahanna residents rely on us for floors that balance aesthetics and durability.",
+        "localContext": "Gahanna is a growing suburb with a mix of older homes and new developments.",
+        "nearbyAreas": [
+          "New Albany",
+          "Westerville",
+          "Blacklick"
+        ]
+      },
+      {
+        "city": "Powell",
+        "slug": "powell-oh",
+        "state": "OH",
+        "content": "Powell, OH's upscale homes require premium flooring, and Onyx Flooring delivers with high-end materials designed for snowy climates. Our freeze-thaw-resistant installations—from wide-plank hardwood to heated tile—ensure year-round comfort and elegance. Powell homeowners trust us for flawless, long-lasting results.",
+        "localContext": "Powell is known for its luxury homes and expansive properties.",
+        "nearbyAreas": [
+          "Dublin",
+          "Worthington",
+          "Delaware"
+        ]
+      },
+      {
+        "city": "New Albany",
+        "slug": "new-albany-oh",
+        "state": "OH",
+        "content": "New Albany, OH's modern estates and traditional homes deserve flooring that withstands harsh winters. Onyx Flooring specializes in materials that resist freeze-thaw damage, from engineered wood to stone-look tile. Let us enhance your New Albany home with floors that marry sophistication and resilience.",
+        "localContext": "New Albany features upscale neighborhoods with a focus on community planning.",
+        "nearbyAreas": [
+          "Gahanna",
+          "Westerville",
+          "Blacklick"
+        ]
+      },
+      {
+        "city": "Lewis Center",
+        "slug": "lewis-center-oh",
+        "state": "OH",
+        "content": "Lewis Center, OH's expanding subdivisions benefit from Onyx Flooring's expertise in cold-weather flooring solutions. We install durable surfaces like luxury vinyl and tile that handle freeze-thaw cycles without cracking. Lewis Center homeowners choose us for reliable, stylish floors tailored to their needs.",
+        "localContext": "Lewis Center offers newer developments with family-friendly amenities.",
+        "nearbyAreas": [
+          "Westerville",
+          "Delaware",
+          "Powell"
+        ]
+      },
+      {
+        "city": "Delaware",
+        "slug": "delaware-oh",
+        "state": "OH",
+        "content": "Delaware, OH's mix of historic and contemporary homes relies on Onyx Flooring for winter-resistant flooring. Our freeze-thaw-proof installations—including hardwood refinishing and waterproof options—keep Delaware homes beautiful despite snowy conditions. Trust us for floors that combine local charm with durability.",
+        "localContext": "Delaware balances small-town charm with growing suburban appeal.",
+        "nearbyAreas": [
+          "Powell",
+          "Lewis Center",
+          "Sunbury"
+        ]
+      },
+      {
+        "city": "Upper Arlington",
+        "slug": "upper-arlington-oh",
+        "state": "OH",
+        "content": "Upper Arlington, OH's prestigious homes demand high-end flooring, and Onyx Flooring delivers with materials built for snowy winters. Our freeze-thaw-resistant hardwood, tile, and custom solutions ensure elegance and longevity. Upper Arlington residents trust us for meticulous craftsmanship and premium results.",
+        "localContext": "Upper Arlington is known for its tree-lined streets and top-rated schools.",
+        "nearbyAreas": [
+          "Columbus",
+          "Grandview Heights",
+          "Dublin"
+        ]
+      },
+      {
+        "city": "Grandview Heights",
+        "slug": "grandview-heights-oh",
+        "state": "OH",
+        "content": "In Grandview Heights, OH, Onyx Flooring helps homeowners combat winter flooring challenges with durable, stylish solutions. From refinishing original hardwood to installing scratch-resistant laminate, we address freeze-thaw damage head-on. Grandview Heights residents rely on us for floors that enhance their homes' character.",
+        "localContext": "Grandview Heights offers a walkable community with historic and modern homes.",
+        "nearbyAreas": [
+          "Columbus",
+          "Upper Arlington",
+          "Marble Cliff"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "hardwood-flooring": "/images/service-hardwood-flooring.webp",
+      "luxury-vinyl-plank": "/images/service-luxury-vinyl-plank.webp",
+      "tile-flooring": "/images/service-tile-flooring.webp",
+      "carpet-installation": "/images/service-carpet-installation.webp",
+      "floor-refinishing": "/images/service-floor-refinishing.webp"
+    },
+    "servicesResponsive": {
+      "hardwood-flooring": {
+        "src": "/images/service-hardwood-flooring.webp",
+        "srcset": "/images/service-hardwood-flooring-400w.webp 400w, /images/service-hardwood-flooring-800w.webp 800w, /images/service-hardwood-flooring-1200w.webp 1200w, /images/service-hardwood-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-vinyl-plank": {
+        "src": "/images/service-luxury-vinyl-plank.webp",
+        "srcset": "/images/service-luxury-vinyl-plank-400w.webp 400w, /images/service-luxury-vinyl-plank-800w.webp 800w, /images/service-luxury-vinyl-plank-1200w.webp 1200w, /images/service-luxury-vinyl-plank.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tile-flooring": {
+        "src": "/images/service-tile-flooring.webp",
+        "srcset": "/images/service-tile-flooring-400w.webp 400w, /images/service-tile-flooring-800w.webp 800w, /images/service-tile-flooring-1200w.webp 1200w, /images/service-tile-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "carpet-installation": {
+        "src": "/images/service-carpet-installation.webp",
+        "srcset": "/images/service-carpet-installation-400w.webp 400w, /images/service-carpet-installation-800w.webp 800w, /images/service-carpet-installation-1200w.webp 1200w, /images/service-carpet-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "floor-refinishing": {
+        "src": "/images/service-floor-refinishing.webp",
+        "srcset": "/images/service-floor-refinishing-400w.webp 400w, /images/service-floor-refinishing-800w.webp 800w, /images/service-floor-refinishing-1200w.webp 1200w, /images/service-floor-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
